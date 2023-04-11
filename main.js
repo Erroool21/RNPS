@@ -61,7 +61,7 @@ function win(bn){
     }, 1200);
 
     if(UserPoints == 5){
-        gameover("You have reached 5 Points win!");
+        gameover("You have reached 5 Points. You win!!");
     };
 }
 
@@ -88,7 +88,7 @@ function lose(bn){
     }, 1200);
 
     if(ComPoints == 5){
-        gameover("The Computer reached 5 Points You lose!");
+        gameover("The Computer reached 5 Points. You lose...");
     }
 }
 
